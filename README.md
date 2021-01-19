@@ -1,4 +1,4 @@
-# Android Mini-App Group 11
+# Members
 Robert Dillman
 Haely Jung
 
