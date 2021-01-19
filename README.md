@@ -16,7 +16,7 @@ Each item will have a name, description, latitude, longitude, and a way to recor
 # Instructions on Usage
 
 # Project Report
-01/19/21 <br/>
+## 01/19/21
 Today was the first meeting to go over the project requriements and what we have so far. We've set up project on GitLab.
 
 # Lessons Learned
