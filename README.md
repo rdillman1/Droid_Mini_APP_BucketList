@@ -26,6 +26,7 @@ Once saved it will appear back on the main screen
 ## 01/14/21
 reviewed gitlab, created github account
 created repository. Played around learning android app dev. 
+
 ## 01/19/21
 Today was the first meeting to go over the project requriements and what we have so far. We've set up project on GitLab.
 reviewed what has been completed thus far. 
@@ -37,14 +38,16 @@ bucketListActivity
 add_item_layout
 
 setup intents and recycler view to transfer between the two.
-##01/21/21
+
+## 01/21/21
 hjung informed me that she will no longer be taking the course
 I reviewed professors code examples and was able to setup my adaptor. 
 I also read about using a model to do the legwork for getcommands. 
 setup a model.java and implemented into my adaptor.java
 was able to setup test recyclerview panels. 
 confirmed all intents open to the right .java and xml.
-##01/31/21
+
+## 01/31/21
 Reviewed milestone requirements
 setup edititem.java and intent embeded into the add_item_layout.xml(recyclerview) 
 this opened up to a edit_item xml
