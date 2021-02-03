@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_above="@+id/bucketItemTitle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        app:srcCompat="@drawable/twu_logo" />
+
+    <TextView
+        android:id="@+id/bucketItemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bucketItem"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginRight="-4dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/describe_your_bucket_list_goal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/maroon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <EditText
+        android:id="@+id/bucketLong"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bucketDescriptionTitle"
+        android:ems="10"
+        android:hint="Longitude"
+        android:inputType="numberDecimal"
+
+        />
+
+    <EditText
+        android:id="@+id/bucketLat"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bucketDescriptionTitle"
+
+        android:layout_toEndOf="@+id/bucketLong"
+        android:layout_toRightOf="@+id/bucketLong"
+        android:ems="10"
+        android:hint="Latitude"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/bucketDescriptionTitle"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/bucketDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/saveBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginRight="-10dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="@string/bucket_list_description"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        app:layout_constraintBottom_toTopOf="@+id/saveBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/bucketDescriptionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bucketDescription"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/describe_your_bucket_list_goal_in_more_detail_here"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/maroon"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="379dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="223dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/save_me"
+        app:backgroundTint="@color/maroon"
+        app:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
+
+    <EditText
+        android:id="@+id/bucketItem"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_above="@+id/bucketTimeTitle"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:hint="@string/my_goal"
+
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="true"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/bucketTimeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bucketLong"
+        android:layout_marginBottom="10dp"
+        android:text="@string/when_you_would_like_to_complete_your_goal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/maroon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/goBackA"
+        android:layout_width="100dp"
+        android:layout_height="85dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:adjustViewBounds="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/maroon"
+        app:backgroundTint="@color/white"
+        app:backgroundTintMode="src_atop"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+        tools:ignore="ContentDescription,VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/btn_checker"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bucketDescriptionTitle"
+        android:layout_below="@id/bucketTimeTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_toRightOf="@id/bucketLat"
+        android:text="Check"
+        tools:layout_marginLeft="5dp" />
+
+</RelativeLayout>
