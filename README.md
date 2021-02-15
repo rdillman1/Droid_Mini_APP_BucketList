@@ -59,6 +59,7 @@ Upon researching this capability. This idea may get scraped due to complexity.
 Uploaded zip document to gitlab where the project resides. 
 for some reason my gitbash has repository setup on github but not gitlab. Im not entirely sure 
 what was done wrong to cause this confusion. 
+This is my first version push. 1.0
 
 
 # Lessons Learned
@@ -78,17 +79,22 @@ FINAL PROJECT SUMBMISSION NOTES
 ##02/01/21
 Feeling good so far go my google maps implemented and all I have left Is to choose how to band my data together. 
 Everything is flowing good!
+pushed version 2.0
 
 ##02/13/21
 Today has been stressful
 I went the route of using a database, and I am in way over my head. I have made the project way to complicated 
 and now debugging my code is a nightmare.. worked almost 14 stright hours goshh. haha
 
+I really broke my code apart trying to work in an expectation I wanted. 
+
 ## 02/14/20
 
 I have given up on getting all my data to pass through the db I am now just sticking with one for now. 
 I have the Bucket item working successfully. 
 I have everything else working as expected.
+
+Push 1.3 code final before assignment deadline
 
 
 
